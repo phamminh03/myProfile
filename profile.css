@@ -14,7 +14,8 @@
   background-size: cover;
   cursor: pointer;
   border: 12px;
-  border-top-right-radius: 35px !important;border-radius: 6px
+  border-top-right-radius: 35px !important;
+  border-radius: 6px;
 }
 
 .overlay{
@@ -24,7 +25,8 @@
   border-radius: 12px;
   cursor: pointer;opacity: 0;
   transition: all 1s;
-  border-top-right-radius: 35px !important;border-radius: 6px
+  border-top-right-radius: 35px !important;
+  border-radius: 6px;
 }
 @media screen and (max-width: 680px){
   .overlay{
