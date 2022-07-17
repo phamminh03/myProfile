@@ -26,9 +26,19 @@
   transition: all 1s;
   border-top-right-radius: 35px !important;border-radius: 6px
 }
+@media screen and (max-width: 680px){
+  .overlay{
+    transition: none;
+  }
+}
 
 .profile:hover .overlay{
   opacity: 0.5
+}
+@media screen and (max-width: 680px){
+  .profile:hover .overlay{
+    opacity: none;
+  }
 }
 
 .social-icons{
